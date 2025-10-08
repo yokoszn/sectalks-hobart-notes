@@ -1,0 +1,64 @@
+
+```yaml
+Infrastructure:
+  ✓ Network isolation implemented
+  ✓ WAF/reverse proxy configured with security rules
+  ✓ SSL/TLS with strong ciphers
+  ✓ IP whitelisting or VPN-only access
+  ✓ Database on separate network segment
+  ✓ Encrypted storage volumes
+  ✓ Backup and recovery tested
+
+Authentication:
+  ✓ Default credentials changed
+  ✓ Password complexity enforced (16+ chars, complexity)
+  ✓ MFA enabled for all users
+  ✓ SSO/SAML integration (if available)
+  ✓ Session timeout configured (< 1 hour)
+  ✓ Account lockout after failed attempts
+  ✓ Admin accounts use separate credentials
+
+Authorization:
+  ✓ Least privilege role assignments
+  ✓ Workflow execution permissions reviewed
+  ✓ API access restricted by role
+  ✓ Credential access audited
+
+Credentials:
+  ✓ External secrets manager integrated
+  ✓ No plaintext credentials in workflows
+  ✓ Encryption key rotated from default
+  ✓ Credentials use service accounts (not personal)
+  ✓ Read-only credentials where possible
+  ✓ Time-limited tokens where supported
+
+Logging & Monitoring:
+  ✓ access logs shipped to SIEM
+  ✓ Failed login alerts configured
+  ✓ Privilege escalation alerts
+  ✓ Unusual API access patterns
+  ✓ Workflow execution anomalies
+  ✓ File access monitoring (n8n)
+  ✓ Password reset monitoring (Flowwise)
+
+Patching:
+  ✓ Running latest stable version
+  ✓ Patch management process defined
+  ✓ Security advisory monitoring subscribed
+  ✓ Update testing environment available
+
+Documentation:
+  ✓ Architecture diagram created
+  ✓ Incident response runbook
+  ✓ Backup/restore procedures
+  ✓ Admin procedures documented
+  ✓ User training materials
+
+Compliance:
+  ✓ Data classification performed
+  ✓ Privacy impact assessment (if PII)
+  ✓ Audit logging configured
+  ✓ Retention policies implemented
+  ✓ Data residency requirements met
+```
+
