@@ -1,3 +1,8 @@
+---
+title: "SecTalks Hobart Notes"
+date: 2025-10-08
+draft: false
+---
 
 This Repository is a collection of notes I took researching No-Code Automation Tools, their deployment models and risks.
 

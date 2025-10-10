@@ -1,3 +1,10 @@
+---
+title: "Self Hosted Monthly Maintenance"
+date: 2025-10-08
+draft: false
+tags: ["maintenance", "self-hosted", "checklist"]
+---
+
 ```yaml
 ══════════════════════════════════════════════════════════════
 SELF-HOSTED MONTHLY TASKS                    ⏱️ 20-30 hours

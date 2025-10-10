@@ -1,3 +1,8 @@
+---
+title: "Go-Live Security Checklist"
+date: 2025-10-08
+draft: false
+---
 
 ```yaml
 Infrastructure:

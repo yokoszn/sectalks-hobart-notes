@@ -1,3 +1,10 @@
+---
+title: "Cloud Self-Hosted Vs SaaS Responsibility"
+date: 2025-10-08
+draft: false
+tags: ["shared-responsibility", "comparison", "deployment"]
+---
+
 ```
 "Cloud self-hosted is easier than on-prem but NOT easy"
 

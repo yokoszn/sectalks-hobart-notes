@@ -1,6 +1,13 @@
+---
+title: "Self-Hosted No-Code Deployment"
+date: 2025-10-08
+draft: false
+tags: ["checklist", "self-hosted", "deployment"]
+---
+
 ```yaml
 INFRASTRUCTURE (40 items) ⏱️ 80-120 hours
-  
+
   Server & OS:
     [ ] Operating system fully patched and hardened
     [ ] Unnecessary services disabled
@@ -12,7 +19,7 @@ INFRASTRUCTURE (40 items) ⏱️ 80-120 hours
     [ ] Kernel parameters tuned for security
     [ ] File integrity monitoring (AIDE/Tripwire)
     [ ] Antivirus/EDR agent installed
-    
+
   Container Security:
     [ ] Docker daemon configured securely
     [ ] User namespaces enabled
@@ -24,7 +31,7 @@ INFRASTRUCTURE (40 items) ⏱️ 80-120 hours
     [ ] Resource limits enforced
     [ ] Read-only root filesystem where possible
     [ ] Secrets not in environment variables
-    
+
   Network Security:
     [ ] VPC/network segmentation implemented
     [ ] Security groups/firewall rules configured
@@ -36,7 +43,7 @@ INFRASTRUCTURE (40 items) ⏱️ 80-120 hours
     [ ] SSL/TLS with strong ciphers only
     [ ] Certificate management automated
     [ ] Internal traffic encrypted (mTLS if possible)
-    
+
   Database Security:
     [ ] PostgreSQL (not SQLite) in production
     [ ] Database on separate network segment
@@ -67,7 +74,7 @@ PLATFORM CONFIGURATION (35 items) ⏱️ 40-60 hours
     [ ] Webhook signature verification
     [ ] Debug mode disabled
     [ ] Version disclosure disabled
-    
+
   Authentication & Access:
     [ ] SSO/SAML integrated and tested
     [ ] MFA enabled and enforced
@@ -83,7 +90,7 @@ PLATFORM CONFIGURATION (35 items) ⏱️ 40-60 hours
     [ ] Role hierarchy documented
     [ ] Least privilege roles assigned
     [ ] User offboarding process defined
-    
+
   Credential Management:
     [ ] External secrets vault integrated (Vault/AWS Secrets)
     [ ] Credentials not stored in platform DB
@@ -93,7 +100,7 @@ PLATFORM CONFIGURATION (35 items) ⏱️ 40-60 hours
     [ ] Read-only credentials used where possible
     [ ] Credential access audit logging
     [ ] Hardcoded secrets scanner configured
-    
+
 MONITORING & RESPONSE (25 items) ⏱️ 40-60 hours
 
   Logging:
@@ -107,7 +114,7 @@ MONITORING & RESPONSE (25 items) ⏱️ 40-60 hours
     [ ] Logs shipped to SIEM
     [ ] Log integrity protected (write-once)
     [ ] PII scrubbed from logs
-    
+
   Alerting:
     [ ] Failed login alerts configured
     [ ] Privilege escalation alerts
@@ -117,7 +124,7 @@ MONITORING & RESPONSE (25 items) ⏱️ 40-60 hours
     [ ] Certificate expiration alerts
     [ ] Backup failure alerts
     [ ] Anomaly detection configured
-    
+
   Incident Response:
     [ ] IR plan documented
     [ ] IR team identified
@@ -127,7 +134,7 @@ MONITORING & RESPONSE (25 items) ⏱️ 40-60 hours
     [ ] Communication plan defined
     [ ] Post-mortem template ready
     [ ] Tabletop exercise completed
-    
+
 COMPLIANCE & DOCUMENTATION (20 items) ⏱️ 30-40 hours
 
   Documentation:
@@ -141,7 +148,7 @@ COMPLIANCE & DOCUMENTATION (20 items) ⏱️ 30-40 hours
     [ ] Admin procedures documented
     [ ] User training materials created
     [ ] Configuration management database (CMDB)
-    
+
   Compliance:
     [ ] Data classification completed
     [ ] Privacy impact assessment
@@ -153,7 +160,7 @@ COMPLIANCE & DOCUMENTATION (20 items) ⏱️ 30-40 hours
     [ ] Vendor/third-party inventory
     [ ] Security assessment completed
     [ ] Penetration test scheduled
-    
+
 ────────────────────────────────────────────────────────────
 TOTAL CHECKLIST: 120 items
 ESTIMATED EFFORT: 200-300 hours before production

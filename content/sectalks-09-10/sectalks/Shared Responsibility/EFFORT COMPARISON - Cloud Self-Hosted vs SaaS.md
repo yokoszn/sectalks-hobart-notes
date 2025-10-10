@@ -1,3 +1,9 @@
+---
+title: "EFFORT COMPARISON - Cloud Self-Hosted vs SaaS"
+date: 2025-10-08
+draft: false
+tags: ["comparison", "effort-analysis", "deployment"]
+---
 
 ### **Decision Summary Table**
 

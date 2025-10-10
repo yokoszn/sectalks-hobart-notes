@@ -1,3 +1,9 @@
+---
+title: "Responsibility for Self-Hosted Vs SaaS"
+date: 2025-10-08
+draft: false
+tags: ["shared-responsibility", "comparison", "deployment"]
+---
 
 **Shared Responsibility: Cloud Self-Hosted**
 ```

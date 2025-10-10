@@ -1,3 +1,9 @@
+---
+title: "Cloud-Based Self Hosted"
+date: 2025-10-08
+draft: false
+tags: ["checklist", "cloud", "deployment"]
+---
 
 ```yaml
 ═══════════════════════════════════════════════════════════════

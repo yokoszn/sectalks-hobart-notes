@@ -1,4 +1,9 @@
-
+---
+title: "Self-Host Vs Cloud-Managed"
+date: 2025-10-08
+draft: false
+tags: ["shared-responsibility", "comparison", "deployment"]
+---
 
 ## What Actually Changes When You Move to Cloud
 

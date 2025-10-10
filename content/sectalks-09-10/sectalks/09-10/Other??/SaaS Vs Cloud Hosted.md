@@ -1,3 +1,9 @@
+---
+title: "SaaS Vs Cloud Hosted"
+date: 2025-10-08
+draft: false
+tags: ["comparison", "deployment"]
+---
 
 
 | Factor                | Cloud Self-Hosted | Managed SaaS    | Winner             |

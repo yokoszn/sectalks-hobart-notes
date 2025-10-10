@@ -1,4 +1,9 @@
-
+---
+title: "Cloud Self-Hosted vs Fully Managed SaaS Responsibility"
+date: 2025-10-08
+draft: false
+tags: ["shared-responsibility", "comparison", "deployment"]
+---
 
 ## The Real Comparison: Your VPS vs Vendor's Platform
 

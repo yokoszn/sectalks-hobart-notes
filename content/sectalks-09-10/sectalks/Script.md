@@ -1,4 +1,8 @@
-
+---
+title: "Script"
+date: 2025-10-08
+draft: false
+---
 
 ## **Part 2: The Core Problem - Aggregation Risk**
 
