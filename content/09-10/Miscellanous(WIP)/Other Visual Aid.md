@@ -1,17 +1,10 @@
----
-title: "Other Visual Aid"
-date: 2025-10-08
-draft: false
-tags: ["architecture", "diagrams"]
----
-
 Pattern - Secured VPC
 
 ```
-↓ NAT Gateway
+↓ NAT Gateway 
 ↓ [Secrets Manager / HashiCorp Vault]
-↓ Transit Gateway
-↓ Production VPC (with strict SGs)
+↓ Transit Gateway 
+↓ Production VPC (with strict SGs)  
 ```
 
 
@@ -61,7 +54,7 @@ Pattern - Secured VPC
 │  AWS  │  │  Database │  │GitHub │
 │  API  │  │  (Prod)   │  │  API  │
 └───────┘  └───────────┘  └───────┘
-
+  
 
 Monitoring Layer :
 ┌─────────────────────────────────────┐
@@ -105,24 +98,24 @@ graph TD
     B -->|Critical/High| C[Emergency Patch - 24h]
     B -->|Medium| D[Scheduled Patch - 7d]
     B -->|Low| E[Next Maintenance - 30d]
-
+    
     C --> F[Test in Staging]
     D --> F
     E --> F
-
+    
     F --> G{Tests Pass?}
     G -->|Yes| H[Schedule Maintenance Window]
     G -->|No| I[Document Issues & Contact Vendor]
-
+    
     H --> J[Backup Production]
     J --> K[Apply Patch]
     K --> L[Post-Patch Validation]
     L --> M{All Services OK?}
-
+    
     M -->|Yes| N[Update Documentation]
     M -->|No| O[Rollback from Backup]
     O --> I
-
+    
     N --> P[Notify Stakeholders]
 ```
 

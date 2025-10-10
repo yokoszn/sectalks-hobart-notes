@@ -1,9 +1,3 @@
----
-title: "Basic Pen Tests (Future)"
-date: 2025-10-08
-draft: false
-tags: ["pentesting", "testing"]
----
 
 ```markdown
 ## Test Case 1: Credential Extraction (n8n)

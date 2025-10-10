@@ -1,10 +1,3 @@
----
-title: "SaaS Monthly Maintenance"
-date: 2025-10-08
-draft: false
-tags: ["maintenance", "saas", "checklist"]
----
-
 ```
 APPLICATION WORK                                 ⏱️ 8-12 hours/month
   [ ] Review workflow executions
